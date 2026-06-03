@@ -1,0 +1,17 @@
+aws:
+  region: ap-south-1
+
+s3:
+  bucket-name: retail-feeds-bucket
+
+sqs:
+  queue-url: https://sqs.ap-south-1.amazonaws.com/767925118457/retail-feed-processing-queue
+
+dynamodb:
+  table-name: retail-products
+
+feed:
+  root-folder: C:/Users/rmvja/OneDrive/Documents/advertiser-feeds
+
+scanner:
+  fixed-delay-ms: 30000
